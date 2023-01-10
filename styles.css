@@ -1,0 +1,225 @@
+
+#title {
+    display: flex;
+    font-family: Satisfy;
+    min-height: 20rem;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover; 
+    background-position: center;
+    background-image: url("./images/Zeke/zekesnow.jpg");
+}
+
+img#logo {
+    display: block;
+    z-index: 5;
+    height: 12rem;
+    margin-top: -6rem;
+}
+
+#boslit {
+    display: flex;
+    align-items: flex-end;
+    font-size: 3rem;
+    margin: -1.5rem; 
+    z-index: 1;
+}
+
+h2 {
+    font-size: 3rem;
+    float: right;
+    font-family: Josefin Sans;
+    background-size: cover; 
+    padding-right: 5.75rem;
+}
+
+h3 {
+    width: 100%; 
+    margin: 0;
+    padding-top: 2rem;
+    margin-right: 2rem;
+}
+
+h4 {
+    width: 100%;
+    font-size: 1.75rem;
+    font-family: Josefin Sans;
+    margin: auto; 
+    margin-right: 2rem;
+}
+@media only screen and (max-width: 200px) {
+    #logo {
+        display: none;
+    }
+    #boslit {
+        font-size: 1rem;
+        margin: -1rem;
+    }
+    #menu {
+        font-size: 12px;
+    }
+    #navmenu {
+        margin: auto;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 201px) and (max-width: 600px) {    
+    #logo {
+        display: none;
+    }
+    #boslit {
+        font-size: 2rem;
+        margin: -1rem;
+    }
+    #menu {
+        font-size: 16px;
+    }
+    #navmenu {
+        margin: auto;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 1099px) {    
+    #logo {
+        display: none;
+    }
+    #boslit {
+        font-size: 2.5rem;
+        margin: -1.25rem;
+    }
+    #menu {
+        font-size: 20px;
+    }
+    #navmenu {
+        /* justify-content: center; */
+        margin: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+    #logo {
+        display: block;
+        height: 150px;
+        padding-bottom: 28rem;
+        justify-content: left;
+        align-items: flex-end;
+        height: 6rem;
+        width: auto;
+    }
+    #boslit {
+        font-size: 3rem;
+        margin: -1.5rem;
+    }
+    #navmenu {
+        display: flexbox;
+        width: 100%;
+        font-size: 0.75rem;
+        align-content: center;
+        justify-content: right; 
+        margin-left: auto;
+    }
+    div#navmenu {
+        padding-right: 4rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1201px) {
+    #logo {
+        height: 8rem;
+        width: auto;
+    }
+    #boslit {
+        font-size: 3.5rem;
+        margin: -1.75rem;
+    }
+    #navmenu {
+        font-size: 0.75rem;
+        justify-content: right;
+        align-content: center;
+    }
+    div#navmenu {
+        margin-left: auto;
+        padding-right: 4rem;
+    }
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: #2158b0;
+    height: 4rem;
+    margin: auto;
+    flex-shrink: 2;
+}
+
+
+nav div#navmenu {
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+} 
+
+main {
+    width: 100%;
+}
+
+p {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+a {
+    display: inline;
+    align-items: center;
+    font-size: 1.25rem;
+    font-family: 'Josefin Sans';
+    /* padding: 1.5rem; */
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    size: 2.5rem;
+    white-space: nowrap;
+    float: left;
+}
+
+a:link {
+    display: inline-flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+#dog {
+    width: 80%;
+    background-size: cover; 
+    display: inline-block;
+    text-align: end;
+    color: white;
+    background-color: #2158b0;
+    font-family: Satisfy;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+    margin-right: -5.75rem;
+}
+
+#profilepic {
+    width: 40%;
+    float: left; 
+}
+
+#profilename {
+    padding-right: 2rem;
+}
